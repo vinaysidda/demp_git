@@ -17,3 +17,6 @@ for index in range(len(search_Engine)):
     engine = search_Engine[index]
     print(engine, index)
     # print(index , engine["company"], engine["location"], engine["type"])
+
+for index, engine in enumerate(search_Engine):
+    print(index,engine["company"], engine["location"], engine["type"])
