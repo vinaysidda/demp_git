@@ -1,0 +1,24 @@
+git init - this initializes the empty folder in the root directory 
+git add . -- tell git to keep track of this file  
+git commit -m "with message you wish  " -- permanently records the current snapshot with a message 
+
+before that you connect the local machine to the 
+
+git remote add origin https://github.com/YourName/awesome-app.git -- git remote add origin(reposotory on the git hub is called 
+origin by default)
+
+git branch -M main --earliest version of git had master for the branch and now that git has main now 
+
+
+git push -u origin main  -- you will push this entire file to the repository on the git hub 
+
+git remote -v -- this command tells me what all remote connections this project has 
+origin  https://github.com/vinaysidda/demp_git.git (fetch)
+origin  https://github.com/vinaysidda/demp_git.git (push)
+(.venv) PS D:\MLOP+AI+Bootcamp\fastapi_rest_demo>
+
+
+git pull  -- Downloads new commits from the remote branch (origin/main) and merges them into your local branch.
+
+
+
