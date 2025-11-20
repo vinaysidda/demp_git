@@ -43,3 +43,4 @@ and then remove any local commits that you have done do any commits from the rem
 git checkout -b feature/login    -- this commnad creates a new branch and then switch to new branch and best way ti  
 Switched to a new branch 'feature/login'
 
+git branch --show-current             :-shows which branch are you in now 
