@@ -7,7 +7,7 @@ before that you connect the local machine to the
 git remote add origin https://github.com/YourName/awesome-app.git -- git remote add origin(reposotory on the git hub is called 
 origin by default)
 
-git branch -M main --earliest version of git had master for the branch and now that git has main now 
+git branch -M main --earliest version of git had master for the branch and now that git has main  
 
 
 git push -u origin main  -- you will push this entire file to the repository on the git hub 
@@ -40,5 +40,6 @@ git pull --rebase  -- lets assume that i have new code on github after that with
 and then remove any local commits that you have done do any commits from the remote and then add the local commits on top of that 
 
 
-git checkout -b feature/login    -- this commnad creates a new branch and then switch to new branch 
+git checkout -b feature/login    -- this commnad creates a new branch and then switch to new branch and best way ti  
 Switched to a new branch 'feature/login'
+
