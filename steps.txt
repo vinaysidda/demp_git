@@ -36,3 +36,9 @@ commit 7c0e7a69152e12d52139225c5f3f2cd93b19394d
 Author: vinaysidda <vinaysiddesh.siddesh@gmail.com>
 
 
+git pull --rebase  -- lets assume that i have new code on github after that with this command , you will pull the entire code
+and then remove any local commits that you have done do any commits from the remote and then add the local commits on top of that 
+
+
+git checkout -b feature/login    -- this commnad creates a new branch and then switch to new branch 
+Switched to a new branch 'feature/login'
