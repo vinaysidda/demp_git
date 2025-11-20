@@ -106,3 +106,41 @@ def delete_Employee(employee_id:int):
 
 
 
+# from fastapi import FastAPI
+# from pydantic import BaseModel
+# from typing import List
+
+# app = FastAPI()
+
+# class brides(BaseModel):
+#     id: int
+#     name: str
+#     age: int
+#     wedding_date: str
+
+# bride:list[brides] = [] # instread of dict use brides model like this
+# next_id = 1 # To auto-increment brides IDs
+
+
+# @app.get('/bride/',response_model=list[brides])
+# def list_brides():
+#     return bride
+
+# @app.get('/bride/{bride_id}',response_model=brides)
+# def get_bride(bride_id:int):
+#     for b in bride:
+#         if b["id"] == bride_id:
+#             return b
+#     return {"error":"bride not found"}
+
+# @app.post('/bride/')
+# def create_bride(bride_new:brides):
+#     global next_id
+#     bride_new.id = next_id
+#     next_id += 1
+#     bride_new.name = bride_new.name
+#     bride_new.age = bride_new.age
+#     bride.wedding_date = bride_new``.wedding_date
+#     bride.append(bride_new.model_dump())
+#     return bride_new
+
