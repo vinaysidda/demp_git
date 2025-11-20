@@ -27,12 +27,12 @@ git fetch origin --Downloads only the latest commits from GitHub but does not mo
 
 
 commit 47a52e38403f89722d8d0d478276a390caf407f1 (HEAD -> main, origin/main)
-Author: vinaysidda <vinaysiddesh.siddesh@gmail.com>
+Author: vinaysa <vinays@gmail.com>
 Date:   Tue Nov 18 02:31:54 2025 -0500
 
     with new git steps
 
 commit 7c0e7a69152e12d52139225c5f3f2cd93b19394d
-Author: vinaysidda <vinaysiddesh.siddesh@gmail.com>
+Author: vinays <vinays@gmail.com>
 
 
